@@ -1,0 +1,60 @@
+/* Aturan untuk desktop/laptop */
+.textdashboard {
+  font-size: 2rem; /* Ukuran font untuk layar besar */
+}
+
+/* Aturan untuk handphone */
+@media (max-width: 640px) {
+  .textdashboard {
+    font-size: 0.5rem !important;
+    padding: 0.5rem !important;
+    display: block; /* Mengubah menjadi block untuk menampilkan elemen */
+  }
+  
+  .tabledashboard {
+    font-size: 1rem !important;
+  }
+
+  .progress-container {
+    flex-direction: !important column;
+    align-items: !important center;
+  }
+
+  .circular-progress {
+    margin-bottom: !important 1rem;
+  }
+
+  .fa-truck {
+    font-size: !important 3rem;
+    margin-bottom:  !important 1rem;
+  }
+
+  .armada-data {
+    text-align: !important center;
+  }
+
+  .container {
+    padding: 0.5rem !important;
+  }
+
+  table {
+    font-size: 0.875rem; /* Ukuran font yang lebih kecil untuk tabel */
+  }
+
+  .table th,
+  .table td {
+    padding: 0.5rem; /* Ubah padding untuk membuat tabel lebih kompak di layar kecil */
+  }
+
+  .icon-large {
+    font-size: 0.5rem; /* Mengubah ukuran ikon besar di layar kecil */
+  }
+
+  .text-large {
+    font-size: 0.5rem; /* Ukuran teks besar di layar kecil */
+  }
+
+  .progress-text {
+    font-size: 0.6rem; /* Ukuran teks di dalam progress bar */
+  }
+}
